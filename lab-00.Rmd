@@ -46,19 +46,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+*This is a graph that shows the github username, favourite number and favourite colour of the team* 
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "GitHub Username", 
+          y = "Favourite Number",
+          title = "Team Graph for Favourite Number")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+*This is a graph that shows the github username, favourite number and favourite colour of the team*
 
 ### Exercise 20
 
@@ -68,4 +68,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+*A tally could be appropriate, but it depends on the size of the dataset*
